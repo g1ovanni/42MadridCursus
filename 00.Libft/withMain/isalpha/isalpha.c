@@ -6,7 +6,7 @@
 /*   By: giovanni <giovanni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 19:53:07 by giovanni          #+#    #+#             */
-/*   Updated: 2021/11/05 21:06:49 by giovanni         ###   ########.fr       */
+/*   Updated: 2021/11/05 21:39:39 by giovanni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	main (void) {
 }
 
 int	ft_isalpha(int argument) {
-	if (argument >= 'A' && argument <= 'z'){
+	if ((argument >= 'A' && argument <= 'Z') || (argument >= 'a' && argument <= 'z')){
 		printf("1");
 		return (1);
 	}
