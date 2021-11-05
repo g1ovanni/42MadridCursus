@@ -1,25 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   isalpha.c                                          :+:      :+:    :+:   */
+/*   isdigit.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: giovanni <giovanni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/05 19:53:07 by giovanni          #+#    #+#             */
-/*   Updated: 2021/11/05 21:06:49 by giovanni         ###   ########.fr       */
+/*   Created: 2021/11/05 21:05:09 by giovanni          #+#    #+#             */
+/*   Updated: 2021/11/05 21:09:58 by giovanni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int	ft_isalpha(int argument);
+int	ft_isdigit( int arg );
 
 int	main (void) {
-	ft_isalpha('X');
+	ft_isdigit(5);
 }
 
-int	ft_isalpha(int argument) {
-	if (argument >= 'A' && argument <= 'z'){
+int	ft_isdigit(int argument) {
+	if (argument >= 0 && argument <= 9){
 		printf("1");
 		return (1);
 	}
