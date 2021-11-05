@@ -6,12 +6,13 @@
 /*   By: giovanni <giovanni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 19:53:07 by giovanni          #+#    #+#             */
-/*   Updated: 2021/11/05 20:05:44 by giovanni         ###   ########.fr       */
+/*   Updated: 2021/11/05 20:56:36 by giovanni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int a = 0;
-
-int main (void) {
-	/* Hi */
+int	ft_isalpha(int argument) {
+	if (argument >= 'A' && argument <= 'z')
+		return (1);
+	else
+		return (0);
 }
